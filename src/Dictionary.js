@@ -24,12 +24,14 @@ setKeyword(event.target.value);
 
     return (
     <div className="Dictionary">
+        <section>
        <form onSubmit={search}>
            <input 
            type="search" 
-           autoFocus={true}
+           autoFocus={false}
            onChange={handleKeywordChange}/>
        </form>
+       </section>
        <Results results={results}/>
     </div>
     )
