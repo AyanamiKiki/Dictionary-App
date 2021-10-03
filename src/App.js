@@ -13,7 +13,7 @@ function App() {
         <Dictionary />
       </main>
       <footer className="App-footer">
-        <small>Coded by Ayanami Kiki</small>
+        <small>Coded by <a href="https://github.com/AyanamiKiki/Dictionary-App" target="_blank" rel="noreferrer">Ayanami Kiki</a></small>
         </footer>
     </div>
     </div>
